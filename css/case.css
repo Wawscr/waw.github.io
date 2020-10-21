@@ -1,0 +1,7 @@
+.nav>ul>li{
+    margin-left: 15px;
+}
+
+article+div{
+    margin-bottom: 150px;
+}

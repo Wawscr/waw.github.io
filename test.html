@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #bg{
+        background:rgba(0, 0, 0, 0.2); 
+        position: absolute; 
+        z-index: 1;
+        height: 100px;
+        width: 596px;
+        top: 396px;
+        transition: all  ease-in-out 0.25s;
+    }
+    div>img:hover+#bg{
+        background:rgba(255, 0, 0, 0.2); 
+    }
+
+
+</style>
+<body>
+    <div>
+        <img src="images/14.png" alt="" style="position: absolute; z-index: 0;">
+        <div id="bg" >
+            <p style="color: white;">重庆工程学院鸽子</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+footer{
+    background: #333333;
+    height: 320px;
+}
+
+footer>.content{
+    margin-left: 300px;
+    padding-top: 80px;
+    display: flex;
+    width: 1320px;
+}
+
+footer>.content>.part1>.icon1+p{
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #b2afaf;
+}
+
+footer>.content>.part2{
+    margin-left: 50px;
+    color: #b2afaf;
+}
+
+footer>.content>.part2>p{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+footer>.content>.part3{
+    display: flex;
+}
+
+footer>.content>.part3>ul{
+    margin-left: 80px;
+}
+
+footer>.content>.part3>ul>li{
+    color: #b2afaf;
+    margin-bottom: 15px;
+}
+
+footer>.content>.part3>ul>li:nth-child(n+2)>a{
+    margin-left: 5px;
+    transition: all ease-in-out 0.25s;
+}
+
+footer>.content>.part3>ul>li>a{
+    color: #b2afaf;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer>.content>.part3>ul>li:nth-child(n+2):hover>a{
+    color: white;
+}
+
+footer>.content>.part3>ul>li:nth-child(1){
+    text-decoration: none;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+}
+
+footer>.content>.part4{
+    width: 300px;
+    margin-left: 150px;
+    color: #b2afaf;
+}
+
+footer>.content>.part4>p{
+    margin-bottom: 15px;
+}
